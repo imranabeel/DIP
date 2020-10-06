@@ -1,10 +1,13 @@
-# DIP: Digital image processing
-
-
-## Sampling, Quantization and Interpolation
+# Sampling, Quantization and Interpolation
 
 ## 1D interpolation
+Use any of the following command to install "scipy" library if you get an error. 
 
+ > sudo pip install scipy
+or 
+> sudo pip3 install scipy
+or 
+> conda install scipy
 ```python
 
 from scipy import power, arange
