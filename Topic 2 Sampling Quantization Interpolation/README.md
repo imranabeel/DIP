@@ -36,4 +36,4 @@ OUTPUT
 
 ```
 
-[![Watch the video](https://github.com/tinkerslab/DIP/blob/master/raw_data/2D_interpolation.png)](https://www.kite.com/static/media/demo.4fdc269f.mp4)
+[![2D interpolation video](https://icons.iconarchive.com/icons/vexels/office/512/video-playback-icon.png)](https://www.kite.com/static/media/demo.4fdc269f.mp4)
