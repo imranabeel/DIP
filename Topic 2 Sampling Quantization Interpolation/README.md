@@ -36,4 +36,4 @@ OUTPUT
 
 ```
 
-[![2D interpolation video](http://img.youtube.com/vi/AjWfY7SnMBI/0.jpg)](https://www.kite.com/static/media/demo.4fdc269f.mp4)
+[![](http://img.youtube.com/vi/s-3l_527ydQ/0.jpg)](http://www.youtube.com/watch?v=s-3l_527ydQ "")
