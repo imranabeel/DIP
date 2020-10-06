@@ -1,6 +1,6 @@
 # Sampling, Quantization and Interpolation
 
-## 1D interpolation
+
 Use any of the following command to install "scipy" library if you get an error. 
 
 + sudo pip install scipy
@@ -47,9 +47,10 @@ plt.show()
 
 
 ```
-## OUtput
+## Output
 ![Output](https://scikit-image.org/docs/stable/_images/sphx_glr_plot_rescale_0011.png)
 
+## 1D interpolation
 
 ```python
 
