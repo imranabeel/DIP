@@ -37,3 +37,9 @@ OUTPUT
 ```
 
 [![Watch the video](https://github.com/tinkerslab/DIP/blob/master/raw_data/2D_interpolation.png)](https://github.com/tinkerslab/DIP/blob/master/raw_data/2D_interpolation.mp4)
+
+<!-- blank line -->
+<figure class="video_container">
+  <iframe src="https://github.com/tinkerslab/DIP/blob/master/raw_data/2D_interpolation.mp4" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+<!-- blank line -->
