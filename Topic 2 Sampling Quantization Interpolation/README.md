@@ -2,7 +2,6 @@
 
 
 ## Sampling, Quantization and Interpolation
-
-<figure class="video_container">
-  <iframe src="https://www.kite.com/static/media/demo.4fdc269f.mp4" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
+<video width="320" height="240" controls>
+  <source src="2D_interpolation.mp4" type="video/mp4">
+</video>
