@@ -47,7 +47,8 @@ plt.show()
 
 
 ```
-
+## OUtput
+[!](https://scikit-image.org/docs/stable/_images/sphx_glr_plot_rescale_0011.png)
 
 
 ```python
