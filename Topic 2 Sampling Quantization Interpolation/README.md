@@ -4,7 +4,5 @@
 ## Sampling, Quantization and Interpolation
 
 <figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
-    <source src="DIP/raw_data/2D_interpolation.mp4" type="video/mp4">
-  </video>
+  <iframe src="https://www.kite.com/static/media/demo.4fdc269f.mp4" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
