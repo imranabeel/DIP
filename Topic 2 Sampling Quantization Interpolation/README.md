@@ -3,6 +3,43 @@
 
 ## Sampling, Quantization and Interpolation
 
+## 1D interpolation
+
+```python
+
+from scipy import power, arange
+from scipy.interpolate import interp1d
+x = arange(0, 5)
+y = power(x + 2, 3)
+xnew = arange(0, 4, 0.5)
+
+f = interp1d(x, y)
+print f(xnew)
+
+OUTPUT
+[   8.    17.5   27.    45.5   64.    94.5  125.   170.5]
+
+f = interp1d(x, y, "zero")
+print f(xnew)
+
+OUTPUT
+[   8.    8.   27.   27.   64.   64.  125.  125.]
+
+f = interp1d(x, y, "cubic")
+print f(xnew)
+
+OUTPUT
+[   8.      15.625   27.      42.875   64.      91.125  125.     166.375]
+
+f = interp1d(x, y, "quadratic")
+print f(xnew)
+
+OUTPUT
+[   8.    15.5   27.    43.    64.    91.   125.   166.5]
+
+```
+
+## 2D interpolation
 ```python
 
 from scipy import random, mgrid
@@ -35,5 +72,5 @@ OUTPUT
  [ 0.75785667  1.34710428  1.34710428  1.77777691  1.77777691]]
 
 ```
-
+Video
 [![](http://img.youtube.com/vi/s-3l_527ydQ/0.jpg)](http://www.youtube.com/watch?v=s-3l_527ydQ "")
