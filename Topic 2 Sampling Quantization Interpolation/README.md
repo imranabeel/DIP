@@ -2,7 +2,7 @@
 
 
 ## Sampling, Quantization and Interpolation
-
+```python
 <pre class="with-background"><code class="with-syntax-highlighting code"><div class="example-prelude"><div><code class="  language-python"><span class="token keyword">from</span> scipy <span class="token keyword">import</span> random<span class="token punctuation">,</span> mgrid
 <span class="token keyword">from</span> scipy<span class="token punctuation">.</span>interpolate <span class="token keyword">import</span> griddata
 </code></div></div><div class="example-main"><div><code class="  language-python"><span class="token keyword">def</span> <span class="token function">f</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span> y<span class="token punctuation">)</span><span class="token punctuation">:</span>
@@ -23,3 +23,4 @@ values <span class="token operator">=</span> f<span class="token punctuation">(<
  [ 0.75785667  0.75785667  1.32061996  1.33740459  1.6481689 ]
  [ 0.75785667  1.34710428  1.34710428  1.77777691  1.77777691]]
 </div></div></div></div><div class="example-postlude"></div></code></pre>
+'''
