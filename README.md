@@ -1,10 +1,11 @@
 # DIP: Digital image processing
 
 
-## Sampling, Quantization and Interpolation
+## This repository will be updated throughout the semester with all the relevant material.
 
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
-    <source src="raw_data/2D_interpolation.mp4" type="video/mp4">
-  </video>
-</figure>
+## Instructor(s):
+M. Imran Abeel
+
+## Software used throught the course
++ Python (scipy etc)
++ Jupyter notebook (colab)
