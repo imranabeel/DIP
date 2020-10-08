@@ -5,6 +5,29 @@
 # SKimage library
 > ## We will use Skimage library to read, write and manipute different ascpects in an image. 
 
+You can use either of the two options below
+
++ For google-colab,
+enter the url in the browser
+> https://colab.research.google.com/
+
+and you can run the following commands directly. or use the pip3 commands directly to install scipy (SkImage). 
+
+
++ For linux or WSL (Windows sybsytems for linux)
+check python vercion by typing
+> python --version
+and make sure you have python3 installed
+if not please install 
+> sudo apt install python3
+
++ You can install pip3 by using the follwoing command
+>  sudo apt install python3-pip
+
++ install SKimage using the following command.
+> sudo pip3 install scipy
+
+
 ## Read sample Image: 
 
 
