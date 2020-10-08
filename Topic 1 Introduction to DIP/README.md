@@ -16,7 +16,8 @@ and you can run the following commands directly. or use the pip3 commands direct
 
 + For linux or WSL (Windows sybsytems for linux)
 check python vercion by typing
-> python --version
+> python3 --version
+
 and make sure you have python3 installed
 if not please install 
 > sudo apt install python3
