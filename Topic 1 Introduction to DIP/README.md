@@ -1,6 +1,8 @@
 # Lecture # 1: 
 > # Basic of image processing using python
 
+# Lecture Video:
+[![](http://img.youtube.com/vi/4cb-DWuhBiI/0.jpg)](http://www.youtube.com/watch?v=4cb-DWuhBiI "")
 
 # SKimage library
 > ## We will use Skimage library to read, write and manipute different ascpects in an image. 
