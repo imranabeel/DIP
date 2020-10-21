@@ -1,4 +1,4 @@
-# Intensity transformations
+# Topic 3: Intensity transformations
 ## We can maniputate pixels intensity to improve the representation of data in an image. 
 
 # Read image from skimage data library
@@ -245,13 +245,6 @@ def eval_f(orginal_image, transformed_image):
     score = sum(sum(sum(abs(difference)))
     print("Score (lower is better) = ",score)
 
-```
-
-# Thank you
-
-# Questions
-
 
 ```python
 
-```
