@@ -37,7 +37,7 @@ Let's suppose we have a stream of the symbols: **a**, **e**, **r**, **s** and **
 
 With this table in mind, we can build ranges containing all the possible symbols sorted by the most frequents.
 
-![initial arithmetic range](https://github.com/tinkerslab/DIP/blob/master/Topic%207%20Image%20Compression/range.png "initial arithmetic range")
+![initial arithmetic range](range.png "initial arithmetic range")
 
 Now let's encode the stream **eat**, we pick the first symbol **e** which is located within the subrange **0.3 to 0.6** (but not included) and we take this subrange and split it again using the same proportions used before but within this new range.
 
