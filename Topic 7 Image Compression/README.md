@@ -37,19 +37,19 @@ Let's suppose we have a stream of the symbols: **a**, **e**, **r**, **s** and **
 
 With this table in mind, we can build ranges containing all the possible symbols sorted by the most frequents.
 
-![initial arithmetic range](/range.png "initial arithmetic range")
+![initial arithmetic range](range.png "initial arithmetic range")
 
 Now let's encode the stream **eat**, we pick the first symbol **e** which is located within the subrange **0.3 to 0.6** (but not included) and we take this subrange and split it again using the same proportions used before but within this new range.
 
-![second sub range](/second_subrange.png "second sub range")
+![second sub range](second_subrange.png "second sub range")
 
 Let's continue to encode our stream **eat**, now we take the second symbol **a** which is within the new subrange **0.3 to 0.39** and then we take our last symbol **t** and we do the same process again and we get the last subrange **0.354 to 0.372**.
 
-![final arithmetic range](/arithimetic_range.png "final arithmetic range")
+![final arithmetic range](arithimetic_range.png "final arithmetic range")
 
 We just need to pick a number within the last subrange **0.354 to 0.372**, let's choose **0.36** but we could choose any number within this subrange. With **only** this number we'll be able to recover our original stream **eat**. If you think about it, it's like if we were drawing a line within ranges of ranges to encode our stream.
 
-![final range traverse](/range_show.png "final range traverse")
+![final range traverse](range_show.png "final range traverse")
 
 The **reverse process** (A.K.A. decoding) is equally easy, with our number **0.36** and our original range we can run the same process but now using this number to reveal the stream encoded behind this number.
 
